@@ -1,73 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            background-color: beige;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            background: rgb(99, 14, 14);
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        main {
-            margin: 20px 0;
-            padding: 20px;
-            background-color: whitesmoke;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0 , 0 , 0 , 1);
-       }
-       section {
-            margin-bottom: 20px;
-            
-       }
-       footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8em;
-            color: #678;
-       }
-       ul {
-            list-style-type: square;
-            padding-left: 20px;
-            
-       }
-    </style>
+    <title>Biografía de Lionel Messi</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
-    <h1>Bienvenidos a mi sitio WEB</h1>
+        <h1>Biografía de Lionel Messi</h1>
     </header>
 
-    <main>
-        <section>
-            <h2>Sobre mí</h2>
-            <p>Hola, soy un entusiasta en la programación y disfruto en aprender nuevas tecnologías</p>
-        </section>
+    <section class="bio">
+        <h2>Datos personales</h2>
+        <p><strong>Nombre:</strong> Lionel Andrés Messi Cuccittini</p>
+        <p><strong>Fecha de nacimiento:</strong> 24 de junio de 1987</p>
+        <p><strong>Lugar de nacimiento:</strong> Rosario, Argentina</p>
+        <p><strong>Posición:</strong> Delantero</p>
+        <p><strong>Altura:</strong> 1.70 m</p>
 
-        <section>
-            <h2>Mis intereses</h2>
-            <ul>
-                <li>Fundamentos de programación</li>
-                <li>Python</li>
-                <li>Principiante</li>          
-            </ul>
-        </section>
-    </main>
+        <!-- Imagen de Messi -->
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/d09b97e/2147483647/strip/true/crop/3677x2451+0+0/resize/1200x800!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff3%2F19%2Ff6728872293ad44d9e1273826f94%2F3ed037030d6d40f296bb518cb93c2a1e" alt="Lionel Messi" width="300">
+    </section>
 
+    <section class="logros">
+        <h2>Logros y estadísticas</h2>
+        <p><strong>Goles:</strong> Más de 800 goles a nivel de clubes y selecciones.</p>
+        <p><strong>Clubes:</strong> FC Barcelona (2000-2021), Paris Saint-Germain (2021-2023), Inter Miami (2023 - presente).</p>
+        <p><strong>Trofeos destacados:</strong> 7 Balones de Oro, 4 Champions League, 10 Ligas de España, Copa América 2021.</p>
+    </section>
+
+    <section class="destacados">
+        <h2>Información relevante</h2>
+        <p>Lionel Messi es el mejor futbolista de todos los tiempos. Su habilidad, visión de juego, y capacidad para marcar goles lo han convertido en una leyenda del fútbol. Ha jugado la mayor parte de su carrera en el FC Barcelona, donde rompió numerosos récords, incluyendo ser el máximo goleador de la historia del club.</p>
+        <p>En 2021, Messi dejó el Barcelona debido a problemas financieros del club y se unió al Paris Saint-Germain. En 2023, se trasladó a Inter Miami en la MLS, continuando su legado como uno de los jugadores más importantes del fútbol mundial.</p>
+        
+        <!-- Video de YouTube -->
+        <h3>Video los 800 mejores goles de Messi</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=IscGtF_A14A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer con el copyright -->
     <footer>
-        <p>&copy; 2025 Tec Desarrollador</p>
+        <p>© 2025 Proyecto Grupo Revelación - Todos Los Derechos Reservados</p>
     </footer>
-
 </body>
 </html>
